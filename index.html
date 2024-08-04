@@ -1,0 +1,547 @@
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mainbody.css" />
+    <link rel="stylesheet" href="sidebar.css" />
+    <link rel="stylesheet" href="activities.css" />
+    <title>Feed | Linkedln</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    />
+    <link rel="shortcut icon" href="download.png" type="image/x-icon" />
+    <style>
+      * {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Nav bar header -->
+    <div class="header">
+      <div class="header_left">
+        <img
+          src="images/in.svg"
+          alt="no image"
+          style="
+            background-color: hsla(0, 0%, 100%, 0.63);
+            border-radius: 4px;
+            padding: 5px;
+          "
+        />
+        <div class="search_box">
+          <i class="bi bi-search" style="color: white"></i>
+          <input type="text" class="search_input" value="Search" />
+        </div>
+      </div>
+      <div class="header_right">
+        <div class="nav_link">
+          <div class="nav_icon">
+            <i
+              class="bi bi-house-door-fill"
+              style="
+                font-size: 1.3rem !important;
+                color: hsla(0, 0%, 100%, 0.63);
+              "
+            ></i>
+          </div>
+          <div class="nav_text">Home</div>
+        </div>
+
+        <div class="nav_link network">
+          <div class="nav_icon">
+            <i
+              class="bi bi-people-fill"
+              style="
+                font-size: 1.3rem !important;
+                color: hsla(0, 0%, 100%, 0.63);
+              "
+            ></i>
+          </div>
+          <div class="nav_text">Network</div>
+        </div>
+
+        <div class="nav_link jobs">
+          <div class="nav_icon">
+            <i
+              class="bi bi-bag-fill"
+              style="
+                font-size: 1.3rem !important;
+                color: hsla(0, 0%, 100%, 0.63);
+              "
+            ></i>
+          </div>
+          <div class="nav_text">Jobs</div>
+        </div>
+
+        <div class="nav_link">
+          <div class="nav_icon">
+            <!-- <div class="info">3</div> -->
+            <i
+              class="bi bi-chat-dots-fill"
+              style="
+                font-size: 1.3rem !important;
+                color: hsla(0, 0%, 100%, 0.63);
+              "
+            ></i>
+          </div>
+          <div class="nav_text">Messaging</div>
+        </div>
+
+        <div class="nav_link">
+          <div class="nav_icon">
+            <div class="info">3</div>
+            <i
+              class="bi bi-bell-fill"
+              style="
+                font-size: 1.3rem !important;
+                color: hsla(0, 0%, 100%, 0.63);
+              "
+            ></i>
+          </div>
+          <div class="nav_text">Notifications</div>
+        </div>
+   <div class="nav_icon" style="margin-right: 5px;">
+              <img
+                src="images/nzay.jpg"
+                alt="non"
+                style="height: 30px; width: 30px; border-radius: 50px"
+              />
+              <div class="nav_text dropdown drop">
+                <i
+                  class="bi bi-caret-down-fill dropdown"
+                  style="font-size: 1rem !important; float: center"
+                ></i>
+                <div class="dropdown-content">
+                  <div class="dropdown_profile">
+                    <img
+                      src="images/nzay.jpg"
+                      style="
+                        height: 50px;
+                        object-fit: contain;
+                        border-radius: 50px;
+                      "
+                      alt="noimage"
+                    />
+                    <div
+                      class="dropdown_profile_info"
+                      style="padding-left: 10px"
+                    >
+                      <div class="act_title">NSABIMANA Issa</div>
+                      <div class="acoount_name">
+                        Student at Jss tu science and technology ,Mysuru
+                      </div>
+                    </div>
+                  </div>
+                  <div class="profile_view_button">View profile</div>
+
+                  <div class="bdr_bottom"></div>
+                  <div class="title" style="color: black">Accounts</div>
+                  <div class="list">Settings & Privacy</div>
+                  <div class="list">Help</div>
+                  <div class="list bdr_bottom">Language</div>
+
+                  <div class="title" style="color: black">Manage</div>
+                  <div class="list">Post & Activity</div>
+                  <div class="list bdr_bottom">Job Postion Account</div>
+                  <div class="list">sign out</div>
+                </div>
+              </div>
+            </div>
+        <div class="header_right_2" style="border-left: 1px solid grey;padding-right: 10px;">
+          <div style="color: hsla(0, 0%, 100%, 0.687);margin-left: 5px;"><img src="images/boxes.png" width="20px" height="20px" style="filter: invert(80%);margin-left: 20px;"><br>
+          <p style="display: flex;align-items: center;gap: 3px;"><span>Business</span>  <i
+          class="bi bi-caret-down-fill dropdown"
+          style="font-size: 1rem !important; float: center"
+        ></i>
+      </p></div>
+          <div class="right_nav_text" style="color: orange;"><u>Try Premium  for <br>
+          free</u></div>
+          <div class="small_screen">
+            <i class="bi bi-three-dots"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mainbody -->
+    <div class="mainbody">
+      <div class="sidebar" style="border: none">
+        <div class="sidebar_first_col" ;style="color: hsla(0, 0%, 100%, 0.63);">
+          <div
+            class="profile_header"
+            style="border-top-left-radius: 10px; border-top-right-radius: 10px"
+          ></div>
+          <img
+            src="images/profile-pic1.jpg"
+            alt="noimage"
+            style="
+              height: 80px;
+              width: 80px;
+              border-radius: 50%;
+              border: 2px solid white;
+
+              margin: -35px auto 0 auto;
+            "
+          />
+
+          <div class="profile_info">
+            <p style="text-align: center" class="act_title">NSABIMANA Issa</p>
+            <p class="account_name">
+              Passion driven software developer | problem solver " in love with
+              javascript"
+            </p>
+          </div>
+
+          <!-- <div style="border:0.2px solid lightgrey"></div> -->
+          <div class="connections">
+            <span
+              style="float: left; color: white; font-size: 14px"
+              class="account_name"
+              >who's viwed your profile</span
+            >
+            <span style="float: right; color: #71a3c1">62</span>
+            <br />
+          </div>
+          <div class="viewed">
+            <div class="text" class="account_name">
+              Impressions of your post
+            </div>
+            <div style="color: #71a3c1">390</div>
+          </div>
+
+          <div class="sidebar_access">
+            <div class="account_name">Access exclusive tools and sights</div>
+            <div>Try premium for free</div>
+          </div>
+          <div class="sidebar_footer">
+            <i class="bi bi-bookmark-fill"></i>
+            <div>My items</div>
+          </div>
+        </div>
+        <div class="sidebar_second_col">
+          <div class="recent">
+            <div class="sidebar_second_text">
+              <img src="images/kills.png" width="43" height="43" />
+            </div>
+            <div
+              class="sidebar_second_text"
+              style="font-size: 19px; color: white"
+            >
+              KHALLIS Team
+            </div>
+            <div
+              style="
+                border: 0.2px solid hsla(0, 0%, 100%, 0.103);
+                width: 70px;
+                margin-left: 8px;
+              "
+            ></div>
+
+            <div
+              class="sidebar_second_text"
+              style="display: flex; justify-content: space-between"
+            >
+              <span>Page notification</span
+              ><span style="color: #71a3c1">2</span>
+            </div>
+            <div
+              class="sidebar_second_text"
+              style="display: flex; justify-content: space-between"
+            >
+              <span>Page Visitors</span><span style="color: #71a3c1">2</span>
+            </div>
+
+            <div style="border: 0.2px solid hsla(0, 0%, 100%, 0.103)"></div>
+
+            <div style="font-size: 18px; margin: auto; width: 90%">
+              See Visitor analytics
+            </div>
+          </div>
+        </div>
+        <div class="sidebar_second_col">
+          <div class="sidebar_title">Recent</div>
+          <div class="recent">
+            <div class="sidebar_second_text">
+              <i
+                class="bi bi-people-fill"
+                style="margin-right: 10px; font-size: medium"
+              ></i>
+              Zeromastery.io
+            </div>
+            <div class="sidebar_second_text">
+              <i
+                class="bi bi-people-fill"
+                style="margin-right: 10px; font-size: medium"
+              ></i>
+              Software developer & free
+            </div>
+            <div class="sidebar_second_text">
+              <i
+                class="bi bi-people-fill"
+                style="margin-right: 10px; font-size: medium"
+              ></i>
+              Front end developer group
+            </div>
+
+            <div class="sidebar_second_text">
+              <i
+                class="bi bi-people-fill"
+                style="margin-right: 10px; font-size: medium"
+              ></i>
+              Africa Jobs-africa Jobs|...
+            </div>
+          </div>
+          <div class="sidebar_title" style="color: #71a3c1">Groups</div>
+
+          <div class="sidebar_second_text">
+            <i
+              class="bi bi-people-fill"
+              style="margin-right: 10px; font-size: medium"
+            ></i>
+            Zeromastery.io
+          </div>
+          <div class="sidebar_second_text">
+            <i
+              class="bi bi-people-fill"
+              style="margin-right: 10px; font-size: medium"
+            ></i>
+            Software developer & free
+          </div>
+          <div class="sidebar_second_text">
+            <i
+              class="bi bi-people-fill"
+              style="margin-right: 10px; font-size: medium"
+            ></i>
+            Front end developer group
+          </div>
+        </div>
+      </div>
+
+      <div class="posts">
+        <div class="post_box">
+          <div class="input">
+            <div class="input_text">
+              <img src="images/image.png" alt="no image" class="profile" />
+              <input
+                type="text"
+                value="start a post"
+                class="post_input"
+                style="color: #1d2226"
+              />
+            </div>
+            <div class="input_blocks">
+              <div class="input_option">
+                <div class="option">
+                  <i class="bi bi-image" style="color: lightblue"></i>
+                </div>
+                <div class="option_text">Photo</div>
+              </div>
+              <div class="input_option">
+                <div class="option">
+                  <i class="bi bi-play-btn-fill" style="color: lightgreen"></i>
+                </div>
+                <div class="option_text">Video</div>
+              </div>
+              <div class="input_option">
+                <div class="option">
+                  <i
+                    class="bi bi-bag-fill"
+                    style="font-size: 1.3rem !important; color: #a28db4"
+                  ></i>
+                </div>
+                <div class="option_text">Jobs</div>
+              </div>
+              <div class="input_option">
+                <div class="option">
+                  <i class="bi bi-card-text" style="color: #967366"></i>
+                </div>
+                <div class="option_text">Write article</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="post_item">
+          <div class="post_item_header">
+            <div class="post_item_info">
+              <img
+                src="images/profile-pic2.jpg"
+                alt="no image"
+                class="post_profile"
+                style="height: 40px; width: 40px; border-radius: 50%"
+              />
+              <div class="post_item_owner" style="margin-left: 8px">
+                <p><b>Patrick Niyogitare</b> like this</p>
+              </div>
+            </div>
+            <i class="bi bi-three-dots" style="padding: 5px"></i>
+          </div>
+
+          <div
+            class="post_item_owner"
+            style="border: 0.2px solid hsla(0, 0%, 100%, 0.274)"
+          ></div>
+          <div
+            class=""
+            style="
+              display: flex;
+              align-items: center;
+              font-size: 20px;
+              gap: 8px;
+              margin-left: 8px;
+              margin-top: 10px;
+            "
+          >
+            <img
+              src="images/profile-pic3.jpg"
+              alt="no image"
+              class="post_profile"
+              style="height: 50px; width: 50px; border-radius: 50%"
+            />
+            <div class="post_item_owner" style="">
+              <p>
+                <b>Yussouf Ntwali</b>.<span
+                  style="color: hsla(0, 0%, 100%, 0.429)"
+                  >Following<br />
+                  Co-Founder,CEO At BAG <br />1d .<i
+                    class="bi bi-globe-americas"
+                  ></i
+                ></span>
+                <img src="images/erath.svg" style="filter: invert(90%)" />
+              </p>
+            </div>
+          </div>
+          <p style="margin-left: 8px; margin-top: 10px">
+            Last week ,I had the pleasure to represent
+            <span style="color: #71a3c1; font-weight: bold">BAG</span> at the
+            2023 Forbes 30 under 30 Africa Submmit in Gabrone,Botswana
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAACgCAMA
+              AAAFBRFXAAAAGFBMVEVtqdIAAAD///9nptGIt9rp8feurq4YGBgltap7AAAAi
+              ElEQVR4nO3awRHDMAwDQdqJnf47Tg36SDPAbgf3JTEDAAAAAAAAAAA
+              AAAAAAEs+ZeZbZp4yc5cRnE5wunnLzK/MXGUEpxOcTnA6wekEpxOcT
+              nA6wekEpxOcTnC6vuDTh/Hd+l4tp59buwlOJzhd32zp9FBst77pIQ
+              AAAAAAAAAAAAAAAAAs+QMFoVghP+a5mgAAAABJRU5ErkJggg=="
+              width="20px"
+              height="12px"
+            />
+            with my friends
+            <span style="color: #71a3c1; font-weight: bold"
+              >Albert Munyabugingo</span
+            >
+            <span style="color: #71a3c1; font-weight: bold"
+              >Bisemage Yves Honore</span
+            >
+          </p>
+          <div style="object-fit: contain; margin-top: 10px">
+            <img src="images/Screenshot 2024-08-03 105001.png" style="width: 100%" />
+          </div>
+        </div>
+      </div>
+      <div class="activity">
+        <div class="news">
+          <div class="news_head">
+            <div class="news_title">Add your feed</div>
+            <i class="bi bi-info-square-fill" style="font-size: 15px"></i>
+          </div>
+          <br />
+
+          <div class="new_list">
+            <div class="com-wraper">
+              <img
+                src="images/profile-pic4.jpg"
+                class="com-image"
+                style="border-radius: 50%; width: 37px; height: 30px"
+              />
+
+              <div>
+                <h3>AEM community</h3>
+                <p>
+                  <span>Company .Information Technology</span>
+                  <span>and services</span>
+                </p>
+                <button><img src="images/plus.svg" /> follow</button>
+              </div>
+            </div>
+          </div>
+          <div class="new_list">
+            <div class="com-wraper">
+              <img
+                src="images/profile-pic1.jpg"
+                class="com-image"
+                style="border-radius: 50%; width: 37px; height: 30px"
+              />
+
+              <div>
+                <h3>Alain Ngabo Kamanda</h3>
+                <p>
+                  <span>Teck Engineer at Tek Experts Rwanda</span>
+                </p>
+                <button><img src="images/plus.svg" /> follow</button>
+              </div>
+            </div>
+          </div>
+          <div class="new_list">
+            <div class="com-wraper">
+              <img
+                src="images/profile-pic2.jpg"
+                class="com-image"
+                style="border-radius: 50%; width: 37px; height: 30px"
+              />
+
+              <div>
+                <h3>AEM community</h3>
+                <p>
+                  <span>Company .Information Technology</span>
+                  <span>and services</span>
+                </p>
+                <button><img src="images/plus.svg" /> follow</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="" style="color: hsla(0, 0%, 100%, 0.587);">
+          <img src="images/news.png" style="width:100%;height:250px">
+        </div>
+        <div class="about">
+         <p>
+          <span>About</span>
+          <span>Accessibility</span>
+          <span>Help center</span>
+         </p> 
+         <p>
+          <span>Privacy&terms  <i
+            class="bi bi-caret-down-fill dropdown"
+            style="font-size: 1rem !important; float: center"
+          ></i></span>
+          <span>adchoices</span>
+      
+         </p> 
+         <p>
+          <span>Advertising</span>
+          <span>Business Services  <i
+            class="bi bi-caret-down-fill dropdown"
+            style="font-size: 1rem !important; float: center"
+          ></i></span>
+      
+         </p> 
+         <p>
+          <span>Get the linked in app</span>
+          <span>More</span>
+      
+         </p>
+        </div>
+        <div style="font-size: 12px;margin-top: 15px;">
+          Linked<i class="bi bi-linkedin" style="font-size: 14px;"></i> Linkedin Corporation 	&#9400;2023
+        </div>
+      </div>
+    </div>
+    <script src="/__/firebase/8.4.3/firebase-app.js"></script>
+    <script src="/__/firebase/init.js"></script>
+  </body>
+</html>
